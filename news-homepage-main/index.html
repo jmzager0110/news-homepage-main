@@ -1,60 +1,82 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
   <title>Frontend Mentor | News homepage</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
+  </head>
 <body>
+  <header>
+  <nav>
+    <img class="logo" src="https://raw.githubusercontent.com/jmzager0110/news-homepage-main/master/news-homepage-main/assets/images/logo.svg" alt="logo">
+    <div class="menu-container">
+      <div class="menu-items">
+        <a class="item" href="#">Home</a>
+        <a class="item" href="#">New</a>
+        <a class="item" href="#">Popular</a>
+        <a class="item" href="#">Trending</a>
+        <a class="item" href="#">Categories</a>
+      </div>
+    </div>
+  </nav>
+    <img id="open-menu" src="https://raw.githubusercontent.com/jmzager0110/news-homepage-main/master/news-homepage-main/assets/images/icon-menu.svg" alt="icon menu open">
+    <img id="close-menu" src="https://raw.githubusercontent.com/jmzager0110/news-homepage-main/master/news-homepage-main/assets/images/icon-menu-close.svg" alt="icon menu close">
+  </header>
+  <div class="body-container">
+    <img  src="https://raw.githubusercontent.com/jmzager0110/news-homepage-main/master/news-homepage-main/assets/images/image-web-3-desktop.png" width="870" height="380" alt="hero" class="hero">
+<div class="main-container">
+    <h1 class="headline">The Bright Future of Web 3.0?</h1>
+    <div class="main-content">
+      <p class="main-p">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
+        But is it really fulfilling its promise?</p><button>Read more</button>
+    </div>
+  </div> <!--main-container gets closed here-->
+  <div class="right-container">
+    <section class="right-pane">
+      <h1 class="right-headline">New</h1>
+      <article>
+        <h2 class="right-subheadline"><a class="right-subheadline" href="#">Hydrogen VS Electric Cars</a></h2>
+        <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+      </article>
+      <article>
+        <h2 class="right-subheadline"><a class="right-subheadline" href="#">The Downsides of AI Artistry</a></h2>
+        <p>What are the possible adverse effects of on-demand AI image generation?</p>
+      </article>
+      <article>
+        <h2 class="right-subheadline"><a class="right-subheadline" href="#">Is VC Funding Drying Up</a></h2>
+        <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+      </article>
+    </section>
+  </div>
+  <div class="bottom-container">
+    <section class="bottom-pane">
+      <article class="retro-card">
+        <img class="bottom-image" src="https://raw.githubusercontent.com/jmzager0110/news-homepage-main/master/news-homepage-main/assets/images/image-retro-pcs.png">
+        <h2 class="light-headline">01</h2>
+        <p class="bold-p"><a class="bold-p" href="#">Reviving Retro PCs</a></p>
+        <p>What happens when old PCs are given modern upgrades?</p>
+      </article>
+      <article class="laptop-card">
+        <img class="bottom-image" src="https://raw.githubusercontent.com/jmzager0110/news-homepage-main/master/news-homepage-main/assets/images/image-top-laptops.png">
+        <h2 class="light-headline">02</h2>
+        <p class="bold-p"><a class="bold-p" href="#">Top 10 Laptops of 2022</a></p>
+        <p>Our best picks for various needs and budgets.</p>
+      </article>
+      <article class="gaming-card">
+        <img class="bottom-image" src="https://raw.githubusercontent.com/jmzager0110/news-homepage-main/master/news-homepage-main/assets/images/image-gaming-growth.png">
+        <h2 class="light-headline">03</h2>
+        <p class="bold-p"><a class="bold-p" href="#">The Growth of Gaming</a></p>
+        <p>How the pandemic has sparked fresh opportunities.</p>
+      </article>
+    </section>
+  </div>
+  </div>
 
-  Home
-  New
-  Popular
-  Trending
-  Categories
-
-  The Bright Future of Web 3.0?
-
-  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-  But is it really fulfilling its promise?
-
-  Read more
-
-  New 
-
-  Hydrogen VS Electric Cars
-  Will hydrogen-fueled cars ever catch up to EVs?
-
-  The Downsides of AI Artistry
-  What are the possible adverse effects of on-demand AI image generation?
-
-  Is VC Funding Drying Up?
-  Private funding by VC firms is down 50% YOY. We take a look at what that means.
-
-  01
-  Reviving Retro PCs
-  What happens when old PCs are given modern upgrades?
-
-  02
-  Top 10 Laptops of 2022
-  Our best picks for various needs and budgets.
-
-  03
-  The Growth of Gaming
-  How the pandemic has sparked fresh opportunities.
-  
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Best Friend</a>.
   </div>
 </body>
-</html>
